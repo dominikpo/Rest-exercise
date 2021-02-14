@@ -9,17 +9,13 @@
 /* Begin PBXBuildFile section */
 		D455AF8A253349530098EA9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D455AF89253349530098EA9E /* AppDelegate.swift */; };
 		D455AF8C253349530098EA9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D455AF8B253349530098EA9E /* SceneDelegate.swift */; };
-		D455AF8E253349530098EA9E /* LoginViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D455AF8D253349530098EA9E /* LoginViewConroller.swift */; };
+		D455AF8E253349530098EA9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D455AF8D253349530098EA9E /* ViewController.swift */; };
 		D455AF91253349530098EA9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D455AF8F253349530098EA9E /* Main.storyboard */; };
 		D455AF93253349550098EA9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D455AF92253349550098EA9E /* Assets.xcassets */; };
 		D455AF96253349550098EA9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D455AF94253349550098EA9E /* LaunchScreen.storyboard */; };
 		D455AFA1253349550098EA9E /* REST_ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D455AFA0253349550098EA9E /* REST_ExerciseTests.swift */; };
 		D455AFAC253353AA0098EA9E /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = D455AFAB253353AA0098EA9E /* Network.swift */; };
 		D455AFAE25336FD00098EA9E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D455AFAD25336FD00098EA9E /* User.swift */; };
-		D46607422552DDC100F65B19 /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46607412552DDC100F65B19 /* CountriesViewController.swift */; };
-		D4695B0125504C630081253D /* KeyboardAdjustment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4695B0025504C630081253D /* KeyboardAdjustment.swift */; };
-		D4732E51255ECE7C0043BD88 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4732E50255ECE7C0043BD88 /* Country.swift */; };
-		D4732E5325631B230043BD88 /* CountryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4732E5225631B230043BD88 /* CountryDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +32,7 @@
 		D455AF86253349530098EA9E /* REST_Exercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = REST_Exercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D455AF89253349530098EA9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D455AF8B253349530098EA9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D455AF8D253349530098EA9E /* LoginViewConroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewConroller.swift; sourceTree = "<group>"; };
+		D455AF8D253349530098EA9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D455AF90253349530098EA9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D455AF92253349550098EA9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D455AF95253349550098EA9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,10 +42,6 @@
 		D455AFA2253349550098EA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D455AFAB253353AA0098EA9E /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		D455AFAD25336FD00098EA9E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		D46607412552DDC100F65B19 /* CountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
-		D4695B0025504C630081253D /* KeyboardAdjustment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAdjustment.swift; sourceTree = "<group>"; };
-		D4732E50255ECE7C0043BD88 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
-		D4732E5225631B230043BD88 /* CountryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,11 +86,8 @@
 				D455AFAF25336FD70098EA9E /* Model */,
 				D455AF89253349530098EA9E /* AppDelegate.swift */,
 				D455AF8B253349530098EA9E /* SceneDelegate.swift */,
-				D4695B0025504C630081253D /* KeyboardAdjustment.swift */,
-				D455AF8D253349530098EA9E /* LoginViewConroller.swift */,
+				D455AF8D253349530098EA9E /* ViewController.swift */,
 				D455AF8F253349530098EA9E /* Main.storyboard */,
-				D4732E5225631B230043BD88 /* CountryDetailViewController.swift */,
-				D46607412552DDC100F65B19 /* CountriesViewController.swift */,
 				D455AF92253349550098EA9E /* Assets.xcassets */,
 				D455AF94253349550098EA9E /* LaunchScreen.storyboard */,
 				D455AF97253349550098EA9E /* Info.plist */,
@@ -120,7 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				D455AFAD25336FD00098EA9E /* User.swift */,
-				D4732E50255ECE7C0043BD88 /* Country.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -226,13 +214,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D455AF8E253349530098EA9E /* LoginViewConroller.swift in Sources */,
-				D46607422552DDC100F65B19 /* CountriesViewController.swift in Sources */,
-				D4695B0125504C630081253D /* KeyboardAdjustment.swift in Sources */,
+				D455AF8E253349530098EA9E /* ViewController.swift in Sources */,
 				D455AF8A253349530098EA9E /* AppDelegate.swift in Sources */,
-				D4732E51255ECE7C0043BD88 /* Country.swift in Sources */,
 				D455AFAC253353AA0098EA9E /* Network.swift in Sources */,
-				D4732E5325631B230043BD88 /* CountryDetailViewController.swift in Sources */,
 				D455AFAE25336FD00098EA9E /* User.swift in Sources */,
 				D455AF8C253349530098EA9E /* SceneDelegate.swift in Sources */,
 			);

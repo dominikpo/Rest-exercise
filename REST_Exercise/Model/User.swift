@@ -14,15 +14,10 @@ struct User: Codable {
     let localId: String
     let email: String
     let displayName: String
-    let idToken: String // wenn man hier einen leeren String übergibt ist es Permission Denied
+    let idToken: String
     let registered: Bool
     let profilePicture: String
     let refreshToken: String
     let expiresIn: String
     
-    
-// Code darunter entkommentieren um parsing error zu erzeugen
-//    let test1: String
-//    var test:Int
-
 }
