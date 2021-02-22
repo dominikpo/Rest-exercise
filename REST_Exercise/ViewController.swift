@@ -11,8 +11,8 @@ import UIKit
 class ViewController: UIViewController {
     
     var network = Networking()
-    let hardcodedEmail: String = "m@m.at"
-    let hardcodedPassword: String = "madmad"
+    let hardcodedEmail: String = ""
+    let hardcodedPassword: String = ""
     
     @IBOutlet weak var emailTextfield: UITextField!
     @IBOutlet weak var passwordTextfield: UITextField!
